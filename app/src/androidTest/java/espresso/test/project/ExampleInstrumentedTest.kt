@@ -48,7 +48,7 @@ class ExampleInstrumentedTest {
         Espresso.onView(withId(R.id.clickMeTenderBtn)).perform(ViewActions.click())
 
         Espresso.onView(withId(R.id.textInput))
-            .check(ViewAssertions.matches(ViewMatchers.withText("You clicked me!")))
+            .check(ViewAssertions.matches(ViewMatchers.withText("You clicked me!!!!!!")))
 
     }
 }
