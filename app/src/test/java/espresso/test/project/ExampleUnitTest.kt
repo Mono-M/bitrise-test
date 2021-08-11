@@ -1,4 +1,4 @@
-package espressosamples.tutorialspoint.helloworld
+package espresso.test.project
 
 import org.junit.Test
 
